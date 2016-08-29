@@ -1,0 +1,11 @@
+{
+  "name": "Test 2",
+  "description": "Verndale Test 2",
+  "keywords": [ "react", "reactjs", "verndale" ],
+  "repository": "https://github.com/reactjs/react-tutorial",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+

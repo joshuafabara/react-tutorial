@@ -1,0 +1,156 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 6.5em;
+  color: #3E8ACC;
+  margin-bottom: 0;
+}
+
+// @media (max-width: 500px) {
+//   h1 {font-size: 4em;}
+// }
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+.mainInstruction {
+  font-size: 1.5em;
+}
+
+.hashtagBox {
+  text-align: center;
+}
+
+.secondaryInstruction {
+  margin-bottom: 20px;
+}
+
+.hashtag {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: left;
+  color: #3E8ACC;
+  word-wrap: break-word;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-size: 9px;
+}
+
+// @media (max-width: 500px) {
+//   .hashtag {font-size: 7px;}
+// }
+// .hashtag:nth-child(even) {
+//   text-align: right;
+// }
+
+.hashtagListHeader {
+  margin-bottom: 20px;
+}
+
+.hashtagList {
+  overflow: hidden;
+}
+
+input[type=text] {
+  height: 24px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 238px;
+}
+
+@media (max-width: 500px) {
+  input[type=text] {
+    width: 90%;
+  }
+  .hashtag {font-size: 7px;}
+  h1 {font-size: 4em;}
+  input[type=submit] {
+    right: 0px !important;
+    top: 0;
+  }
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+}
+
+input[type=submit] {
+  cursor: pointer;
+  height: 38px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  right: 83px;
+  z-index: 3;
+  font-weight: bold;
+}
+
+.hashtagForm {
+  position: relative;
+  overflow: hidden;
+}
