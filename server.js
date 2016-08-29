@@ -18,10 +18,10 @@ var app = express();
 var Twitter = require('twitter');
  
 var client = new Twitter({
-  consumer_key: 'l6exIhHyPPDw1frD8ATzfu2BD',
-  consumer_secret: 'vmzqTdyB64xFSZadMChOVNMPfTV3m9nep5MR7HzgvjTWIxQPWz',
-  access_token_key: '159924354-gZHXPPyeGwNO3cdcHN6orFutuSmxthRn1zZVwRSm',
-  access_token_secret: 'c6mvuYRAqs7ZgNsF3udIkLNV4iiRoGDw9XTbzXHzN03tf'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
 app.set('port', (process.env.PORT || 3000));
